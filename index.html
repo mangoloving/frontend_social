@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <style>
+ 	body, html {
+		height: 100%; /* Ensure the body and html take up the full height */
+		margin: 0; /* Remove default margin */
+		padding:0; /*Remove bottom space*/
+		display: flex; /* Enable flexbox */
+		justify-content: center; /* Center horizontally */
+		align-items: center; /* Center vertically */
+		background-color: #000000;
+		font-family: Arial;}
+
+	.box {
+        background-color: #1f1f1f; /* Square background */
+        padding: 20px; /* Space inside the box */
+        border-radius: 10px; /* Optional: Rounded corners */
+        display: flex;
+        flex-direction: column;}
+		
+	img {
+		max-width: auto; /* Optional: Make image responsive */
+		height: auto; /* Keep the aspect ratio */
+		border-radius: 50%;}
+		
+	.highlight {
+		background-color: #333333;
+		padding: 3px 3px; /* Add space inside the background */
+		display: inline-block;  /*Wrap the background around the text */
+		border-radius: 5px; /* Optional: Rounded corners */
+		color: white;
+        }
+				
+	h2 { 
+		color: white;
+		font-size: 20px; 
+		text-align: center;
+		margin-top: 10px; /* Add space between the image and the text */
+		max-width: 320px; /* Optional: Limit the maximum width of the text */
+        word-wrap: break-word; /* Allow text to wrap within container */
+		margin-bottom: 0px;}		
+		
+	p { 		
+		color: white;
+		font-size: 12px; 
+		text-align: center;
+		margin-top: 5px; /* Add space between the image and the text */
+		max-width: 320px; /* Optional: Limit the maximum width of the text */
+        word-wrap: break-word; /* Allow text to wrap within container */
+		margin-bottom: 10px;}
+		
+	h5 { 		
+		color: white;
+		font-size: 12px; 
+		text-align: center;
+		margin-top: 5px; /* Add space between the image and the text */
+		max-width: 320px; /* Optional: Limit the maximum width of the text */
+        word-wrap: break-word; /* Allow text to wrap within container */
+		margin-bottom: 5px;}	
+  </style>
+</head>
+<body>
+	<div class="box">
+	  <img src="assets/images/avatar-jessica.jpeg" alt="My test image" style="width:100px;height:100px;display: block; margin: auto;"/>
+	  <h2>Jessica Randall</h2>
+	  <p style="color: yellow;">London, United Kingdom</p>
+	  <p>"Front-end developer and avid reader."</p>
+	  
+	  <span class="highlight"><h5>GitHub</h5></span>
+	  <div style="height: 10px;"></div>
+	  <span class="highlight"><h5>Frontend Mentor</h5></span>
+	  <div style="height: 10px;"></div>
+	  <span class="highlight"><h5>LinkedIn</h5></span>
+	  <div style="height: 10px;"></div>
+	  <span class="highlight"><h5>Twitter</h5></span>
+	  <div style="height: 10px;"></div>
+	  <span class="highlight"><h5>Instagram</h5></span>
+	 </div>
+</body>
+</html>
